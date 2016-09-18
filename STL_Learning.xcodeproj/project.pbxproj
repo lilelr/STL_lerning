@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEDE8D0E1D82806300DF3668 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8D0D1D82806300DF3668 /* main.cpp */; };
+		DE61DE701D83AD1B00E383C6 /* 540 - Team Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE61DE6F1D83AD1B00E383C6 /* 540 - Team Queue.cpp */; };
+		DE61DE721D83D7AA00E383C6 /* 136 - Ugly Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE61DE711D83D7AA00E383C6 /* 136 - Ugly Numbers.cpp */; };
+		DE61DE741D83DD4300E383C6 /* 101-The Blocks Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE61DE731D83DD4300E383C6 /* 101-The Blocks Problem.cpp */; };
+		DEDE8D0E1D82806300DF3668 /* 10474 - Where is the Marble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8D0D1D82806300DF3668 /* 10474 - Where is the Marble.cpp */; };
+		DEDE8D151D8288C500DF3668 /* 10815 - Andy's First Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8D141D8288C500DF3668 /* 10815 - Andy's First Dictionary.cpp */; };
+		DEDE8D171D82905200DF3668 /* 156 - Ananagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8D161D82905200DF3668 /* 156 - Ananagrams.cpp */; };
+		DEDE8D191D8294D100DF3668 /* 12096 - The SetStack Computer .cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8D181D8294D100DF3668 /* 12096 - The SetStack Computer .cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE61DE6F1D83AD1B00E383C6 /* 540 - Team Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "540 - Team Queue.cpp"; sourceTree = "<group>"; };
+		DE61DE711D83D7AA00E383C6 /* 136 - Ugly Numbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "136 - Ugly Numbers.cpp"; sourceTree = "<group>"; };
+		DE61DE731D83DD4300E383C6 /* 101-The Blocks Problem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "101-The Blocks Problem.cpp"; sourceTree = "<group>"; };
+		DECC795A1D82D423003179F3 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
+		DECC795B1D82D42C003179F3 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 		DEDE8D0A1D82806300DF3668 /* STL_Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = STL_Learning; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEDE8D0D1D82806300DF3668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEDE8D0D1D82806300DF3668 /* 10474 - Where is the Marble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10474 - Where is the Marble.cpp"; sourceTree = "<group>"; };
+		DEDE8D141D8288C500DF3668 /* 10815 - Andy's First Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "10815 - Andy's First Dictionary.cpp"; sourceTree = "<group>"; };
+		DEDE8D161D82905200DF3668 /* 156 - Ananagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "156 - Ananagrams.cpp"; sourceTree = "<group>"; };
+		DEDE8D181D8294D100DF3668 /* 12096 - The SetStack Computer .cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "12096 - The SetStack Computer .cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,15 @@
 		DEDE8D0C1D82806300DF3668 /* STL_Learning */ = {
 			isa = PBXGroup;
 			children = (
-				DEDE8D0D1D82806300DF3668 /* main.cpp */,
+				DEDE8D0D1D82806300DF3668 /* 10474 - Where is the Marble.cpp */,
+				DEDE8D141D8288C500DF3668 /* 10815 - Andy's First Dictionary.cpp */,
+				DEDE8D161D82905200DF3668 /* 156 - Ananagrams.cpp */,
+				DEDE8D181D8294D100DF3668 /* 12096 - The SetStack Computer .cpp */,
+				DECC795A1D82D423003179F3 /* in */,
+				DECC795B1D82D42C003179F3 /* out */,
+				DE61DE6F1D83AD1B00E383C6 /* 540 - Team Queue.cpp */,
+				DE61DE711D83D7AA00E383C6 /* 136 - Ugly Numbers.cpp */,
+				DE61DE731D83DD4300E383C6 /* 101-The Blocks Problem.cpp */,
 			);
 			path = STL_Learning;
 			sourceTree = "<group>";
@@ -118,7 +140,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEDE8D0E1D82806300DF3668 /* main.cpp in Sources */,
+				DEDE8D151D8288C500DF3668 /* 10815 - Andy's First Dictionary.cpp in Sources */,
+				DEDE8D0E1D82806300DF3668 /* 10474 - Where is the Marble.cpp in Sources */,
+				DEDE8D191D8294D100DF3668 /* 12096 - The SetStack Computer .cpp in Sources */,
+				DE61DE721D83D7AA00E383C6 /* 136 - Ugly Numbers.cpp in Sources */,
+				DE61DE701D83AD1B00E383C6 /* 540 - Team Queue.cpp in Sources */,
+				DE61DE741D83DD4300E383C6 /* 101-The Blocks Problem.cpp in Sources */,
+				DEDE8D171D82905200DF3668 /* 156 - Ananagrams.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +265,7 @@
 				DEDE8D131D82806300DF3668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
